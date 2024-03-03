@@ -5,7 +5,7 @@ body {
     height: 100vh;
 }
 
-.section-1, .section-2, .section-3 {
+.section-1, .section-2, .section-3, .section-4 {
     flex: 1;
 }
 
@@ -133,6 +133,12 @@ li .subtext {
 .section-3 .quote-author {
     width: 500px;
     text-align: right;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ad-container {
