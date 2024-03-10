@@ -18,7 +18,8 @@ body {
 }
 
 .header {
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 200px;
 }
 
 .header-logo {
@@ -62,10 +63,11 @@ button, .ad-container {
 
 .section-1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
     column-gap: 20px;
+    padding: 0 200px;
 }
 
 .section-1 .left {
@@ -143,8 +145,11 @@ li .subtext {
 
 .ad-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex: 1;
+    margin: 0 200px;
+    padding: 50px 0;
 }
 
 .footer {
